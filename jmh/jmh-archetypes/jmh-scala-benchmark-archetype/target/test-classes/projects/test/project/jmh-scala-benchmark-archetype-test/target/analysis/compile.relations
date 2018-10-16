@@ -1,0 +1,9 @@
+products:
+   src/main/scala/org/openjdk/jmh/MyBenchmark.scala -> target/classes/org/openjdk/jmh/MyBenchmark.class
+binary dependencies:
+   src/main/scala/org/openjdk/jmh/MyBenchmark.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/rt.jar
+   src/main/scala/org/openjdk/jmh/MyBenchmark.scala -> /Users/woohyeok.kim/.m2/repository/org/openjdk/jmh/jmh-core/1.22-SNAPSHOT/jmh-core-1.22-SNAPSHOT.jar
+source dependencies:
+external dependencies:
+class names:
+   src/main/scala/org/openjdk/jmh/MyBenchmark.scala -> org.openjdk.jmh.MyBenchmark

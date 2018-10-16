@@ -1,0 +1,58 @@
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building JMH benchmark sample: Java 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.17/maven-surefire-plugin-2.17.pom
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.17/maven-surefire-plugin-2.17.pom (5 KB at 8.5 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.17/surefire-2.17.pom
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.17/surefire-2.17.pom (17 KB at 41.7 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.17/maven-surefire-plugin-2.17.jar
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.17/maven-surefire-plugin-2.17.jar (34 KB at 70.2 KB/sec)
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jmh-java-benchmark-archetype-test ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/woohyeok.kim/Desktop/study/java-performance-check/jmh/jmh-archetypes/jmh-java-benchmark-archetype/target/test-classes/projects/test/project/jmh-java-benchmark-archetype-test/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ jmh-java-benchmark-archetype-test ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /Users/woohyeok.kim/Desktop/study/java-performance-check/jmh/jmh-archetypes/jmh-java-benchmark-archetype/target/test-classes/projects/test/project/jmh-java-benchmark-archetype-test/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ jmh-java-benchmark-archetype-test ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/woohyeok.kim/Desktop/study/java-performance-check/jmh/jmh-archetypes/jmh-java-benchmark-archetype/target/test-classes/projects/test/project/jmh-java-benchmark-archetype-test/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ jmh-java-benchmark-archetype-test ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ jmh-java-benchmark-archetype-test ---
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.17/maven-surefire-common-2.17.pom
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.17/maven-surefire-common-2.17.pom (6 KB at 20.3 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.17/surefire-api-2.17.pom
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.17/surefire-api-2.17.pom (3 KB at 9.1 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.17/surefire-booter-2.17.pom
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.17/surefire-booter-2.17.pom (3 KB at 8.1 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.17/maven-surefire-common-2.17.jar
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.17/surefire-booter-2.17.jar
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.17/surefire-api-2.17.jar
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.17/surefire-booter-2.17.jar (39 KB at 61.2 KB/sec)
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.17/surefire-api-2.17.jar (144 KB at 156.2 KB/sec)
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.17/maven-surefire-common-2.17.jar (260 KB at 272.8 KB/sec)
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ jmh-java-benchmark-archetype-test ---
+[INFO] Building jar: /Users/woohyeok.kim/Desktop/study/java-performance-check/jmh/jmh-archetypes/jmh-java-benchmark-archetype/target/test-classes/projects/test/project/jmh-java-benchmark-archetype-test/target/jmh-java-benchmark-archetype-test-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:2.2:shade (default) @ jmh-java-benchmark-archetype-test ---
+[INFO] Including org.openjdk.jmh:jmh-core:jar:1.22-SNAPSHOT in the shaded jar.
+[INFO] Including net.sf.jopt-simple:jopt-simple:jar:4.6 in the shaded jar.
+[INFO] Including org.apache.commons:commons-math3:jar:3.2 in the shaded jar.
+[INFO] Replacing /Users/woohyeok.kim/Desktop/study/java-performance-check/jmh/jmh-archetypes/jmh-java-benchmark-archetype/target/test-classes/projects/test/project/jmh-java-benchmark-archetype-test/target/benchmarks.jar with /Users/woohyeok.kim/Desktop/study/java-performance-check/jmh/jmh-archetypes/jmh-java-benchmark-archetype/target/test-classes/projects/test/project/jmh-java-benchmark-archetype-test/target/jmh-java-benchmark-archetype-test-1.0-SNAPSHOT-shaded.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6.630s
+[INFO] Finished at: Tue Oct 16 18:23:16 JST 2018
+[INFO] Final Memory: 26M/315M
+[INFO] ------------------------------------------------------------------------

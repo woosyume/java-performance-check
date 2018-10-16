@@ -1,0 +1,199 @@
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building JMH benchmark sample: Scala 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: http://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/1.8/build-helper-maven-plugin-1.8.pom
+Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/1.8/build-helper-maven-plugin-1.8.pom (7 KB at 4.9 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/30/mojo-parent-30.pom
+Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/30/mojo-parent-30.pom (27 KB at 61.3 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/1.8/build-helper-maven-plugin-1.8.jar
+Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/1.8/build-helper-maven-plugin-1.8.jar (42 KB at 82.6 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/net/alchim31/maven/scala-maven-plugin/3.2.2/scala-maven-plugin-3.2.2.pom
+Downloaded: http://repo.maven.apache.org/maven2/net/alchim31/maven/scala-maven-plugin/3.2.2/scala-maven-plugin-3.2.2.pom (17 KB at 42.6 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/net/alchim31/maven/scala-maven-plugin/3.2.2/scala-maven-plugin-3.2.2.jar
+Downloaded: http://repo.maven.apache.org/maven2/net/alchim31/maven/scala-maven-plugin/3.2.2/scala-maven-plugin-3.2.2.jar (117 KB at 188.7 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/codehaus/mojo/exec-maven-plugin/1.2.1/exec-maven-plugin-1.2.1.pom
+Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/mojo/exec-maven-plugin/1.2.1/exec-maven-plugin-1.2.1.pom (8 KB at 19.0 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/28/mojo-parent-28.pom
+Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/28/mojo-parent-28.pom (26 KB at 67.0 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/codehaus/codehaus-parent/3/codehaus-parent-3.pom
+Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/codehaus-parent/3/codehaus-parent-3.pom (5 KB at 11.8 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/codehaus/mojo/exec-maven-plugin/1.2.1/exec-maven-plugin-1.2.1.jar
+Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/mojo/exec-maven-plugin/1.2.1/exec-maven-plugin-1.2.1.jar (37 KB at 91.0 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.pom
+Downloaded: http://repo.maven.apache.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.pom (2 KB at 3.6 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar
+Downloaded: http://repo.maven.apache.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar (5611 KB at 655.9 KB/sec)
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.8:add-source (add-source) @ jmh-scala-benchmark-archetype-test ---
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/2.0.1/maven-plugin-api-2.0.1.pom
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/2.0.1/maven-plugin-api-2.0.1.pom (643 B at 1.9 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven/2.0.1/maven-2.0.1.pom
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven/2.0.1/maven-2.0.1.pom (12 KB at 33.9 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.8/plexus-utils-1.5.8.jar
+Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.8/plexus-utils-1.5.8.jar (262 KB at 758.2 KB/sec)
+[INFO] Source directory: /Users/woohyeok.kim/Desktop/study/java-performance-check/jmh/jmh-archetypes/jmh-scala-benchmark-archetype/target/test-classes/projects/test/project/jmh-scala-benchmark-archetype-test/src/main/scala added.
+[INFO] Source directory: /Users/woohyeok.kim/Desktop/study/java-performance-check/jmh/jmh-archetypes/jmh-scala-benchmark-archetype/target/test-classes/projects/test/project/jmh-scala-benchmark-archetype-test/target/generated-sources/jmh added.
+[INFO] 
+[INFO] --- scala-maven-plugin:3.2.2:compile (default) @ jmh-scala-benchmark-archetype-test ---
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.0.4/maven-core-3.0.4.pom
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.0.4/maven-core-3.0.4.pom (7 KB at 20.1 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven/3.0.4/maven-3.0.4.pom
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven/3.0.4/maven-3.0.4.pom (22 KB at 53.6 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.0.4/maven-model-3.0.4.pom
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.0.4/maven-model-3.0.4.pom (4 KB at 6.0 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.0.4/maven-settings-3.0.4.pom
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.0.4/maven-settings-3.0.4.pom (2 KB at 5.8 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.0.4/maven-settings-builder-3.0.4.pom
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.0.4/maven-settings-builder-3.0.4.pom (3 KB at 7.3 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.0.4/maven-repository-metadata-3.0.4.pom
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.0.4/maven-repository-metadata-3.0.4.pom (2 KB at 4.7 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.0.4/maven-artifact-3.0.4.pom
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.0.4/maven-artifact-3.0.4.pom (2 KB at 3.1 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.0.4/maven-plugin-api-3.0.4.pom
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.0.4/maven-plugin-api-3.0.4.pom (3 KB at 10.7 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.0.4/maven-model-builder-3.0.4.pom
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.0.4/maven-model-builder-3.0.4.pom (3 KB at 5.8 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-aether-provider/3.0.4/maven-aether-provider-3.0.4.pom
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-aether-provider/3.0.4/maven-aether-provider-3.0.4.pom (3 KB at 8.5 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/1.2/maven-dependency-tree-1.2.pom
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/1.2/maven-dependency-tree-1.2.pom (4 KB at 14.7 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/9/maven-shared-components-9.pom
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/9/maven-shared-components-9.pom (4 KB at 14.1 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.1.2/doxia-sink-api-1.1.2.pom
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.1.2/doxia-sink-api-1.1.2.pom (2 KB at 4.6 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/1.1.2/doxia-1.1.2.pom
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/1.1.2/doxia-1.1.2.pom (18 KB at 53.2 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.1.2/doxia-logging-api-1.1.2.pom
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.1.2/doxia-logging-api-1.1.2.pom (2 KB at 4.0 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/com/typesafe/zinc/zinc/0.3.5/zinc-0.3.5.pom
+Downloaded: http://repo.maven.apache.org/maven2/com/typesafe/zinc/zinc/0.3.5/zinc-0.3.5.pom (3 KB at 4.9 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4.pom
+Downloaded: http://repo.maven.apache.org/maven2/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4.pom (2 KB at 5.3 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/com/typesafe/sbt/incremental-compiler/0.13.5/incremental-compiler-0.13.5.pom
+Downloaded: http://repo.maven.apache.org/maven2/com/typesafe/sbt/incremental-compiler/0.13.5/incremental-compiler-0.13.5.pom (2 KB at 4.7 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/scala-lang/scala-compiler/2.10.3/scala-compiler-2.10.3.pom
+Downloaded: http://repo.maven.apache.org/maven2/org/scala-lang/scala-compiler/2.10.3/scala-compiler-2.10.3.pom (3 KB at 5.1 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/scala-lang/scala-library/2.10.3/scala-library-2.10.3.pom
+Downloaded: http://repo.maven.apache.org/maven2/org/scala-lang/scala-library/2.10.3/scala-library-2.10.3.pom (2 KB at 4.9 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/scala-lang/scala-reflect/2.10.3/scala-reflect-2.10.3.pom
+Downloaded: http://repo.maven.apache.org/maven2/org/scala-lang/scala-reflect/2.10.3/scala-reflect-2.10.3.pom (2 KB at 4.6 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/com/typesafe/sbt/sbt-interface/0.13.5/sbt-interface-0.13.5.pom
+Downloaded: http://repo.maven.apache.org/maven2/com/typesafe/sbt/sbt-interface/0.13.5/sbt-interface-0.13.5.pom (2 KB at 3.9 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/com/typesafe/sbt/compiler-interface/0.13.5/compiler-interface-0.13.5.pom
+Downloaded: http://repo.maven.apache.org/maven2/com/typesafe/sbt/compiler-interface/0.13.5/compiler-interface-0.13.5.pom (2 KB at 3.9 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0.jar
+Downloading: http://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-guava/0.9.9/sisu-guava-0.9.9.jar
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/1.2/maven-dependency-tree-1.2.jar
+Downloading: http://repo.maven.apache.org/maven2/org/apache/commons/commons-exec/1.1/commons-exec-1.1.jar
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.1.2/doxia-sink-api-1.1.2.jar
+Downloaded: http://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0.jar (283 KB at 790.7 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.1.2/doxia-logging-api-1.1.2.jar
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.1.2/doxia-sink-api-1.1.2.jar (13 KB at 24.5 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/com/typesafe/zinc/zinc/0.3.5/zinc-0.3.5.jar
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/1.2/maven-dependency-tree-1.2.jar (34 KB at 63.1 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4.jar
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.1.2/doxia-logging-api-1.1.2.jar (12 KB at 45.9 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/com/typesafe/sbt/incremental-compiler/0.13.5/incremental-compiler-0.13.5.jar
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/commons/commons-exec/1.1/commons-exec-1.1.jar (52 KB at 78.9 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/scala-lang/scala-compiler/2.10.3/scala-compiler-2.10.3.jar
+Downloaded: http://repo.maven.apache.org/maven2/com/typesafe/sbt/incremental-compiler/0.13.5/incremental-compiler-0.13.5.jar (2163 KB at 2427.4 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/scala-lang/scala-reflect/2.10.3/scala-reflect-2.10.3.jar
+Downloaded: http://repo.maven.apache.org/maven2/com/typesafe/zinc/zinc/0.3.5/zinc-0.3.5.jar (383 KB at 244.4 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/com/typesafe/sbt/sbt-interface/0.13.5/sbt-interface-0.13.5.jar
+Downloaded: http://repo.maven.apache.org/maven2/com/typesafe/sbt/sbt-interface/0.13.5/sbt-interface-0.13.5.jar (51 KB at 108.8 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/com/typesafe/sbt/compiler-interface/0.13.5/compiler-interface-0.13.5-sources.jar
+Downloaded: http://repo.maven.apache.org/maven2/org/scala-lang/scala-reflect/2.10.3/scala-reflect-2.10.3.jar (3132 KB at 2669.9 KB/sec)
+Downloaded: http://repo.maven.apache.org/maven2/com/typesafe/sbt/compiler-interface/0.13.5/compiler-interface-0.13.5-sources.jar (30 KB at 117.9 KB/sec)
+Downloaded: http://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-guava/0.9.9/sisu-guava-0.9.9.jar (1473 KB at 304.2 KB/sec)
+Downloaded: http://repo.maven.apache.org/maven2/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4.jar (6960 KB at 665.1 KB/sec)
+Downloaded: http://repo.maven.apache.org/maven2/org/scala-lang/scala-compiler/2.10.3/scala-compiler-2.10.3.jar (14092 KB at 526.1 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/scala-lang/scala-compiler/2.11.8/scala-compiler-2.11.8.jar
+Downloaded: http://repo.maven.apache.org/maven2/org/scala-lang/scala-compiler/2.11.8/scala-compiler-2.11.8.jar (15125 KB at 2716.8 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/scala-lang/scala-compiler/2.11.8/scala-compiler-2.11.8.pom
+Downloaded: http://repo.maven.apache.org/maven2/org/scala-lang/scala-compiler/2.11.8/scala-compiler-2.11.8.pom (3 KB at 9.7 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.jar
+Downloaded: http://repo.maven.apache.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.jar (4467 KB at 2423.5 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.jar
+Downloaded: http://repo.maven.apache.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.jar (633 KB at 1343.3 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar
+Downloaded: http://repo.maven.apache.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar (414 KB at 1115.4 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.pom
+Downloaded: http://repo.maven.apache.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.pom (2 KB at 6.6 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.pom
+Downloaded: http://repo.maven.apache.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.pom (3 KB at 10.6 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/scala-lang/scala-library/2.11.4/scala-library-2.11.4.jar
+Downloaded: http://repo.maven.apache.org/maven2/org/scala-lang/scala-library/2.11.4/scala-library-2.11.4.jar (5408 KB at 2495.2 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/scala-lang/scala-library/2.11.4/scala-library-2.11.4.pom
+Downloaded: http://repo.maven.apache.org/maven2/org/scala-lang/scala-library/2.11.4/scala-library-2.11.4.pom (2 KB at 6.0 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.pom
+Downloaded: http://repo.maven.apache.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.pom (3 KB at 9.2 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/scala-lang/scala-library/2.11.6/scala-library-2.11.6.jar
+Downloaded: http://repo.maven.apache.org/maven2/org/scala-lang/scala-library/2.11.6/scala-library-2.11.6.jar (5434 KB at 2425.7 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/scala-lang/scala-library/2.11.6/scala-library-2.11.6.pom
+Downloaded: http://repo.maven.apache.org/maven2/org/scala-lang/scala-library/2.11.6/scala-library-2.11.6.pom (2 KB at 5.1 KB/sec)
+[INFO] Using incremental compilation
+[INFO] 'compiler-interface' not yet compiled for Scala 2.11.8. Compiling...
+[INFO]   Compilation completed in 11.091 s
+[INFO] Compiling 1 Scala source to /Users/woohyeok.kim/Desktop/study/java-performance-check/jmh/jmh-archetypes/jmh-scala-benchmark-archetype/target/test-classes/projects/test/project/jmh-scala-benchmark-archetype-test/target/classes...
+[INFO] 
+[INFO] >>> exec-maven-plugin:1.2.1:java (default) @ jmh-scala-benchmark-archetype-test >>>
+[INFO] 
+[INFO] <<< exec-maven-plugin:1.2.1:java (default) @ jmh-scala-benchmark-archetype-test <<<
+[INFO] 
+[INFO] --- exec-maven-plugin:1.2.1:java (default) @ jmh-scala-benchmark-archetype-test ---
+Processing 1 classes from /Users/woohyeok.kim/Desktop/study/java-performance-check/jmh/jmh-archetypes/jmh-scala-benchmark-archetype/target/test-classes/projects/test/project/jmh-scala-benchmark-archetype-test/target/classes with "reflection" generator
+Writing out Java source to /Users/woohyeok.kim/Desktop/study/java-performance-check/jmh/jmh-archetypes/jmh-scala-benchmark-archetype/target/test-classes/projects/test/project/jmh-scala-benchmark-archetype-test/target/generated-sources/jmh and resources to /Users/woohyeok.kim/Desktop/study/java-performance-check/jmh/jmh-archetypes/jmh-scala-benchmark-archetype/target/test-classes/projects/test/project/jmh-scala-benchmark-archetype-test/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ jmh-scala-benchmark-archetype-test ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/woohyeok.kim/Desktop/study/java-performance-check/jmh/jmh-archetypes/jmh-scala-benchmark-archetype/target/test-classes/projects/test/project/jmh-scala-benchmark-archetype-test/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ jmh-scala-benchmark-archetype-test ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to /Users/woohyeok.kim/Desktop/study/java-performance-check/jmh/jmh-archetypes/jmh-scala-benchmark-archetype/target/test-classes/projects/test/project/jmh-scala-benchmark-archetype-test/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ jmh-scala-benchmark-archetype-test ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/woohyeok.kim/Desktop/study/java-performance-check/jmh/jmh-archetypes/jmh-scala-benchmark-archetype/target/test-classes/projects/test/project/jmh-scala-benchmark-archetype-test/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ jmh-scala-benchmark-archetype-test ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.10:test (default-test) @ jmh-scala-benchmark-archetype-test ---
+[INFO] No tests to run.
+[INFO] Surefire report directory: /Users/woohyeok.kim/Desktop/study/java-performance-check/jmh/jmh-archetypes/jmh-scala-benchmark-archetype/target/test-classes/projects/test/project/jmh-scala-benchmark-archetype-test/target/surefire-reports
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit3/2.10/surefire-junit3-2.10.pom
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit3/2.10/surefire-junit3-2.10.pom (2 KB at 5.1 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit3/2.10/surefire-junit3-2.10.jar
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit3/2.10/surefire-junit3-2.10.jar (26 KB at 88.6 KB/sec)
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.3.2:jar (default-jar) @ jmh-scala-benchmark-archetype-test ---
+[INFO] Building jar: /Users/woohyeok.kim/Desktop/study/java-performance-check/jmh/jmh-archetypes/jmh-scala-benchmark-archetype/target/test-classes/projects/test/project/jmh-scala-benchmark-archetype-test/target/jmh-scala-benchmark-archetype-test-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:2.2:shade (default) @ jmh-scala-benchmark-archetype-test ---
+[INFO] Including org.openjdk.jmh:jmh-core:jar:1.22-SNAPSHOT in the shaded jar.
+[INFO] Including net.sf.jopt-simple:jopt-simple:jar:4.6 in the shaded jar.
+[INFO] Including org.apache.commons:commons-math3:jar:3.2 in the shaded jar.
+[INFO] Including org.scala-lang:scala-library:jar:2.11.8 in the shaded jar.
+[INFO] Replacing /Users/woohyeok.kim/Desktop/study/java-performance-check/jmh/jmh-archetypes/jmh-scala-benchmark-archetype/target/test-classes/projects/test/project/jmh-scala-benchmark-archetype-test/target/benchmarks.jar with /Users/woohyeok.kim/Desktop/study/java-performance-check/jmh/jmh-archetypes/jmh-scala-benchmark-archetype/target/test-classes/projects/test/project/jmh-scala-benchmark-archetype-test/target/jmh-scala-benchmark-archetype-test-1.0-SNAPSHOT-shaded.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1:23.904s
+[INFO] Finished at: Tue Oct 16 18:24:46 JST 2018
+[INFO] Final Memory: 44M/345M
+[INFO] ------------------------------------------------------------------------

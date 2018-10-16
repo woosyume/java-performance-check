@@ -1,0 +1,100 @@
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building JMH benchmark sample: Kotlin 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: http://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-maven-plugin/1.0.2/kotlin-maven-plugin-1.0.2.pom
+Downloaded: http://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-maven-plugin/1.0.2/kotlin-maven-plugin-1.0.2.pom (4 KB at 8.8 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-project/1.0.2/kotlin-project-1.0.2.pom
+Downloaded: http://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-project/1.0.2/kotlin-project-1.0.2.pom (11 KB at 48.2 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-maven-plugin/1.0.2/kotlin-maven-plugin-1.0.2.jar
+Downloaded: http://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-maven-plugin/1.0.2/kotlin-maven-plugin-1.0.2.jar (22 KB at 54.4 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.0.2/kotlin-stdlib-1.0.2.pom
+Downloaded: http://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.0.2/kotlin-stdlib-1.0.2.pom (3 KB at 12.1 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-runtime/1.0.2/kotlin-runtime-1.0.2.pom
+Downloaded: http://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-runtime/1.0.2/kotlin-runtime-1.0.2.pom (5 KB at 20.4 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.0.2/kotlin-stdlib-1.0.2.jar
+Downloading: http://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-runtime/1.0.2/kotlin-runtime-1.0.2.jar
+Downloaded: http://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-runtime/1.0.2/kotlin-runtime-1.0.2.jar (175 KB at 249.0 KB/sec)
+Downloaded: http://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.0.2/kotlin-stdlib-1.0.2.jar (561 KB at 307.2 KB/sec)
+[INFO] 
+[INFO] --- kotlin-maven-plugin:1.0.2:compile (process-sources) @ jmh-kotlin-benchmark-archetype-test ---
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-annotations/3.4/maven-plugin-annotations-3.4.pom
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-annotations/3.4/maven-plugin-annotations-3.4.pom (2 KB at 6.9 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools/3.4/maven-plugin-tools-3.4.pom
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools/3.4/maven-plugin-tools-3.4.pom (14 KB at 57.7 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-compiler/1.0.2/kotlin-compiler-1.0.2.pom
+Downloaded: http://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-compiler/1.0.2/kotlin-compiler-1.0.2.pom (4 KB at 14.9 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-annotations/3.4/maven-plugin-annotations-3.4.jar
+Downloading: http://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-compiler/1.0.2/kotlin-compiler-1.0.2.jar
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-annotations/3.4/maven-plugin-annotations-3.4.jar (14 KB at 55.4 KB/sec)
+Downloaded: http://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-compiler/1.0.2/kotlin-compiler-1.0.2.jar (20249 KB at 1569.0 KB/sec)
+[INFO] Kotlin Compiler version 1.0.2
+[INFO] Compiling Kotlin sources from [/Users/woohyeok.kim/Desktop/study/java-performance-check/jmh/jmh-archetypes/jmh-kotlin-benchmark-archetype/target/test-classes/projects/test/project/jmh-kotlin-benchmark-archetype-test/src/main/kotlin]
+[INFO] Classpath: /Users/woohyeok.kim/.m2/repository/org/openjdk/jmh/jmh-core/1.22-SNAPSHOT/jmh-core-1.22-SNAPSHOT.jar:/Users/woohyeok.kim/.m2/repository/net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6.jar:/Users/woohyeok.kim/.m2/repository/org/apache/commons/commons-math3/3.2/commons-math3-3.2.jar:/Users/woohyeok.kim/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.0.2/kotlin-stdlib-1.0.2.jar:/Users/woohyeok.kim/.m2/repository/org/jetbrains/kotlin/kotlin-runtime/1.0.2/kotlin-runtime-1.0.2.jar
+[INFO] Classes directory is /Users/woohyeok.kim/Desktop/study/java-performance-check/jmh/jmh-archetypes/jmh-kotlin-benchmark-archetype/target/test-classes/projects/test/project/jmh-kotlin-benchmark-archetype-test/target/classes
+[INFO] Module name is jmh-kotlin-benchmark-archetype-test
+[INFO] 
+[INFO] >>> exec-maven-plugin:1.2.1:java (default) @ jmh-kotlin-benchmark-archetype-test >>>
+[INFO] 
+[INFO] <<< exec-maven-plugin:1.2.1:java (default) @ jmh-kotlin-benchmark-archetype-test <<<
+[INFO] 
+[INFO] --- exec-maven-plugin:1.2.1:java (default) @ jmh-kotlin-benchmark-archetype-test ---
+Processing 1 classes from /Users/woohyeok.kim/Desktop/study/java-performance-check/jmh/jmh-archetypes/jmh-kotlin-benchmark-archetype/target/test-classes/projects/test/project/jmh-kotlin-benchmark-archetype-test/target/classes with "reflection" generator
+Writing out Java source to /Users/woohyeok.kim/Desktop/study/java-performance-check/jmh/jmh-archetypes/jmh-kotlin-benchmark-archetype/target/test-classes/projects/test/project/jmh-kotlin-benchmark-archetype-test/target/generated-sources/jmh and resources to /Users/woohyeok.kim/Desktop/study/java-performance-check/jmh/jmh-archetypes/jmh-kotlin-benchmark-archetype/target/test-classes/projects/test/project/jmh-kotlin-benchmark-archetype-test/target/classes
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.8:add-source (add-source) @ jmh-kotlin-benchmark-archetype-test ---
+[INFO] Source directory: /Users/woohyeok.kim/Desktop/study/java-performance-check/jmh/jmh-archetypes/jmh-kotlin-benchmark-archetype/target/test-classes/projects/test/project/jmh-kotlin-benchmark-archetype-test/target/generated-sources/jmh added.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ jmh-kotlin-benchmark-archetype-test ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/woohyeok.kim/Desktop/study/java-performance-check/jmh/jmh-archetypes/jmh-kotlin-benchmark-archetype/target/test-classes/projects/test/project/jmh-kotlin-benchmark-archetype-test/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ jmh-kotlin-benchmark-archetype-test ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to /Users/woohyeok.kim/Desktop/study/java-performance-check/jmh/jmh-archetypes/jmh-kotlin-benchmark-archetype/target/test-classes/projects/test/project/jmh-kotlin-benchmark-archetype-test/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ jmh-kotlin-benchmark-archetype-test ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/woohyeok.kim/Desktop/study/java-performance-check/jmh/jmh-archetypes/jmh-kotlin-benchmark-archetype/target/test-classes/projects/test/project/jmh-kotlin-benchmark-archetype-test/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ jmh-kotlin-benchmark-archetype-test ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- kotlin-maven-plugin:1.0.2:test-compile (process-test-sources) @ jmh-kotlin-benchmark-archetype-test ---
+[INFO] Kotlin Compiler version 1.0.2
+[WARNING] No sources found skipping Kotlin compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.10:test (default-test) @ jmh-kotlin-benchmark-archetype-test ---
+[INFO] No tests to run.
+[INFO] Surefire report directory: /Users/woohyeok.kim/Desktop/study/java-performance-check/jmh/jmh-archetypes/jmh-kotlin-benchmark-archetype/target/test-classes/projects/test/project/jmh-kotlin-benchmark-archetype-test/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.3.2:jar (default-jar) @ jmh-kotlin-benchmark-archetype-test ---
+[INFO] Building jar: /Users/woohyeok.kim/Desktop/study/java-performance-check/jmh/jmh-archetypes/jmh-kotlin-benchmark-archetype/target/test-classes/projects/test/project/jmh-kotlin-benchmark-archetype-test/target/jmh-kotlin-benchmark-archetype-test-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:2.2:shade (default) @ jmh-kotlin-benchmark-archetype-test ---
+[INFO] Including org.openjdk.jmh:jmh-core:jar:1.22-SNAPSHOT in the shaded jar.
+[INFO] Including net.sf.jopt-simple:jopt-simple:jar:4.6 in the shaded jar.
+[INFO] Including org.apache.commons:commons-math3:jar:3.2 in the shaded jar.
+[INFO] Including org.jetbrains.kotlin:kotlin-stdlib:jar:1.0.2 in the shaded jar.
+[INFO] Including org.jetbrains.kotlin:kotlin-runtime:jar:1.0.2 in the shaded jar.
+[INFO] Replacing /Users/woohyeok.kim/Desktop/study/java-performance-check/jmh/jmh-archetypes/jmh-kotlin-benchmark-archetype/target/test-classes/projects/test/project/jmh-kotlin-benchmark-archetype-test/target/benchmarks.jar with /Users/woohyeok.kim/Desktop/study/java-performance-check/jmh/jmh-archetypes/jmh-kotlin-benchmark-archetype/target/test-classes/projects/test/project/jmh-kotlin-benchmark-archetype-test/target/jmh-kotlin-benchmark-archetype-test-1.0-SNAPSHOT-shaded.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 23.629s
+[INFO] Finished at: Tue Oct 16 18:25:47 JST 2018
+[INFO] Final Memory: 41M/365M
+[INFO] ------------------------------------------------------------------------
